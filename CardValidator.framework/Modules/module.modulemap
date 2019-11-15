@@ -1,0 +1,11 @@
+framework module CardValidator {
+  umbrella header "CardValidator.h"
+
+  export *
+  module * { export * }
+}
+
+module CardValidator.Swift {
+    header "CardValidator-Swift.h"
+    requires objc
+}
