@@ -14,7 +14,7 @@ public class ValidationResultCell: UITableViewCell {
     
     public static let reuseId = "ValidationResultCell"
     
-    // MARK: UI elements -
+    // MARK: - UI elements
     private var cardNumberLabel: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false

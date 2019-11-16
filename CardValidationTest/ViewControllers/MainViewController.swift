@@ -13,10 +13,10 @@ public typealias CardModel = (number: String, scheme: String?, isValid: Bool)
 
 public class MainViewController: UIViewController {
     
-    // MARK: UI elements -
+    // MARK: - UI elements
     private var resultsTableView = UITableView()
     
-    // MARK: Data -
+    // MARK: - Data
     private var paymentCards: [String] = []
     private var validatedData: [CardModel] = []
     private var currentIndex = 0
